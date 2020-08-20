@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<estudiantes>
+    <estudinte>
+        <clave>1</clave>
+        <nombre>Carlos</nombre>
+        <apellido>Ruano</apellido>
+        <carnet>201900001</carnet>
+    </estudinte>
+    <estudinte>
+        <clave>2</clave>
+        <nombre>Amanda</nombre>
+        <apellido>Gonzales</apellido>
+        <carnet>201900002</carnet>
+    </estudinte>
+    <estudinte>
+        <clave>3</clave>
+        <nombre>Lidia</nombre>
+        <apellido>Orozco</apellido>
+        <carnet>201900003</carnet>
+    </estudinte>
+    <estudinte>
+        <clave>4</clave>
+        <nombre>Alfredo</nombre>
+        <apellido>Flores</apellido>
+        <carnet>201900004</carnet>
+    </estudinte>
+</estudiantes>
