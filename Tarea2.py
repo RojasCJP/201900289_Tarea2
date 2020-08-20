@@ -3,7 +3,6 @@ from xml.dom import minidom
 import csv
 
 
-# TODO ordenar codigo en metodos
 # aqui empieza el proceso para archivo json
 # se abre el archivo json y se lee
 
