@@ -24,7 +24,7 @@ dataXml = minidom.parse("XMLfile.xml");
 print()
 print()
 print("xml file down")
-print(type(dataXml))
+print(type(dataXml.getElementsByTagName("estudiantes")))
 estudianteNo = 0
 #se agregan a cada variable un campo de el archivo xml y luego se imprime para que tenga sierto formato
 while estudianteNo <= 3:
