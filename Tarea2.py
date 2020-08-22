@@ -11,7 +11,9 @@ def leerJson():
     with open('JSONfile.json') as f:
         dataJson = json.load(f)
     # se muestra el archivo json en consola y de una manera legible
-    print("json file down")
+    print("------------------------------------------------------------------")
+    print("------------------------JSON FILE---------------------------------")
+    print("------------------------------------------------------------------")
     print(type(dataJson['people']))
     registroJsonNo = 1
     for person in dataJson['people']:
@@ -25,7 +27,9 @@ def leerXml():
     # se muestran en consola los campos del archivo xml
     print()
     print()
-    print("xml file down")
+    print("------------------------------------------------------------------")
+    print("------------------------XML FILE----------------------------------")
+    print("------------------------------------------------------------------")
     print(type(dataXml.getElementsByTagName("estudiantes")))
     estudianteNo = 0
     # se agregan a cada variable un campo de el archivo xml y luego se imprime para que tenga sierto formato
@@ -41,7 +45,9 @@ def leerXml():
 def leerCsv():
     print()
     print()
-    print("csv file down")
+    print("------------------------------------------------------------------")
+    print("------------------------CSV FILE----------------------------------")
+    print("------------------------------------------------------------------")
     usuarioNo = 1
     # cargo el archivo para python
     with open('CSVfile.csv') as f:
